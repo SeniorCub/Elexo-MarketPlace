@@ -6,7 +6,8 @@
      font-family: "Poppins", sans-serif;
 }
 body{
-     overflow-x: hidden;
+     width: 100vw;
+     overflow-x: hidden!important;
      font-family: monospace;
      background-color: #454d4a3b;
 }
@@ -268,7 +269,6 @@ i{
      font-size: inherit;
      font-family: inherit;
 }
-
 .hero a.learn-more {
      width: 12rem;
      height: auto;
