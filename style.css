@@ -419,6 +419,8 @@ section{
      border-radius: 10px;
 }
 .upo img{
+     width: 100%!important;
+     height: 100%!important;
      object-fit: contain!important;
 }
 .upo .text{
@@ -1010,5 +1012,38 @@ hr{
      }
      .bigTwo{
           height: 305px;
+     }
+     .cardss {
+          justify-content: center;
+          margin-bottom: 30px;
+          max-height: max-content;
+          flex-wrap: wrap;
+     }
+     .categories {
+          flex-wrap: wrap;
+          gap: 20px;
+          margin: 20px 0;
+     }
+     .secondSection{
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: center;
+          gap: 20px;
+     }
+     .rightSec, .leftSec {
+          width: 90vw;
+     }
+     swiper-slide {
+          display: block;
+     }
+     .otherPages {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+     .hero .col-md-6{
+          text-align: center;
      }
 }
